@@ -129,8 +129,15 @@ function GettingStartedSection() {
 
       <div className="bg-gray-50 rounded-lg p-6 mt-6">
         <h3 className="font-semibold text-gray-900 mb-3">Quick Start Video</h3>
-        <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-          <p className="text-gray-500">Video tutorial coming soon</p>
+        <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
+          <iframe
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/2r53o-bUDYk"
+            title="Quick Start Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     </div>
